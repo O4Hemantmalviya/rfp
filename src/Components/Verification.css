@@ -1,0 +1,160 @@
+#have {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-right: 30px;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  text-align: right;
+
+  color: #8692a6;
+}
+@media screen and (max-width:1024px) {
+#have{
+  text-align: center;
+}  
+}
+@media screen and (max-width:1024px) {
+#media{
+  margin-left: -105px;
+}  
+}
+@media screen and (max-width:425px) {
+  #media{
+    margin-left:-25px;
+  }  
+  }
+@media screen and (max-width:375px) {
+  #gmail{
+    margin-left: -35px;
+  }
+}
+@media screen and (max-width:425px) {
+  #gmail{
+    margin-left: -35px;
+  }
+}
+@media screen and (max-width:320px) {
+  #gmail{
+    margin-left: -65px;
+  }
+}
+#enter {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  padding-top: 100px;
+  /* grayscale / black */
+
+  color: #252733;
+}
+@media screen and (max-width:768px) {
+#enter{
+  padding-left: 30px;
+}  
+}
+#sent {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: center;
+  letter-spacing: 0.3px;
+
+  /* grayscale / gray */
+
+  color: #9fa2b4;
+}
+#sents {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: center;
+  letter-spacing: 0.3px;
+
+  /* grayscale / gray */
+}
+#opt {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 110px;
+  padding-top: 30px;
+
+  color: #696f79;
+}
+#type {
+  margin-left: 110px;
+  width: 380px;
+  height: 50px;
+  border:1px solid #8692A6 ;
+}
+@media screen and (max-width:768px) {
+#type{
+  width:280px;
+}  
+}
+#type:hover{
+  border: 1px solid #3751ff ;
+}
+#mobi {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  padding-left: 110px;
+  padding-top: 10px;
+
+  color: #334d6e;
+}
+#go {
+  width: 380px;
+  margin-left: 110px;
+  background-color: #3751ff;
+  border-radius: 6px;
+  height: 50px;
+  color: #ffffff;
+  border: 1px solid #3751ff;
+  margin-top: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+@media screen and (max-width:768px) {
+  #go{
+    width:280px;
+  }  
+  }
+#me {
+  margin-left: 110px;
+  padding-top: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 19px;
+
+  color: #696f79;
+}
+#ba {
+  color: #8692a6;
+  font-weight: 600;
+}

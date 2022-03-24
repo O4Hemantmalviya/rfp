@@ -1,0 +1,119 @@
+#frame {
+    width: 100%;
+    opacity: 0.5;
+  }
+  
+  #fcolor {
+    background: rgba(55, 81, 255, 0.8);
+    position: relative;
+  }
+  #refimg {
+    height: 50px;
+    width: 200px;
+    color: #ffffff;
+    position: absolute;
+    top: 5%;
+    padding-left: 50px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  #amet {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight:500;
+    font-size: 17px;
+    line-height: 38px;
+    padding-left: 40px;
+    position: absolute;
+    top: 40%;
+    width: 40%;
+    align-items: center;
+    color: #ffffff;
+  }
+  @media screen and (max-width:768px) {
+   #amet{
+     width:40% !important;
+   }    
+  }
+  @media screen and (max-width:425px) {
+   #amet{
+     width:75% !important;
+   }    
+  }
+  @media screen and (max-width:320px) {
+ #amet{
+   width:95% !important;
+ }    
+  }
+  
+  #coma {
+    font-family: "Gayathri";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 117px;
+    position: absolute;
+    top: 25%;
+    align-items: center;
+    padding-left: 40px;
+    color: #ffffff;
+  }
+  #obi {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height */
+    position: absolute;
+    top: 64%;
+  
+    padding-left: 40px;
+    color: #ffffff;
+  }
+  @media screen and (max-width:320px) {
+    #obi{
+      top:82% !important;
+    }
+  }
+  @media screen and (max-width:375px) {
+   #obi{
+     top:75% !important;
+   }    
+  }
+  @media screen and (max-width:768px) {
+  #obi{
+    top: 80% !important; 
+  }    
+  }
+ 
+  #ref {
+    width: 20px;
+  }
+  #box {
+    position: absolute;
+    top: 65%;
+    padding-left: 300px;
+    font-weight: 100;
+    font-size: 15px;
+  }
+  @media screen and (max-width:320px) {
+    #box{
+      top:80% !important;
+    }    
+  }
+  @media screen and (max-width:375px) {
+   #box{
+     top:75% !important ;
+   }    
+  }
+  @media screen and (max-width:768px) {
+    #box{
+      top:80% !important;
+    }    
+  }
+ 
+  
+  #intel {
+    background-color: green;
+  }
