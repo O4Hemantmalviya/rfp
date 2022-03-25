@@ -1,21 +1,21 @@
 #live {
-  font-weight:700;
+  font-weight: 700;
   color: #3751ff;
   font-size: 25px;
-  margin-top:-15px;
+  margin-top: -15px;
 }
-#profile{
-font-family: 'Roboto';
-font-style: normal;
-font-weight:600;
-font-size: 16px;
-line-height:30px;
-letter-spacing: 0.02em;
+#profile {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
 }
-#avtar{
-    color: #f2f2f2;
-    background-color: #3751ff;
-    margin-left:50px;
+#avtar {
+  color: #f2f2f2;
+  background-color: #3751ff;
+  margin-left: 50px;
 }
 #dash {
   display: flex;
@@ -29,11 +29,19 @@ letter-spacing: 0.02em;
   word-spacing: 10px;
   color: #323c47;
 }
+#unites {
+  background-color: #f2f2f2;
+  color: #323c47;
+}
+#unites:hover {
+  background-color: #3751ff;
+  color: #f2f2f2;
+}
 
-#unit:hover{
-    background-color: #3751ff;
-    color: #f2f2f2;
-    cursor: pointer;
+#unit:hover {
+  background-color: #3751ff;
+  color: #f2f2f2;
+  cursor: pointer;
 }
 #dash1 {
   display: flex;
@@ -143,11 +151,11 @@ letter-spacing: 0.02em;
 }
 #spends {
   font-style: normal;
-  font-weight:700;
+  font-weight: 700;
   font-size: 18px;
   line-height: 22px;
   margin-right: 100px;
-  
+
   letter-spacing: 0.02em;
 
   color: #334d6e;
@@ -236,8 +244,12 @@ letter-spacing: 0.02em;
   color: #323c47;
 }
 
-#collasible-nav-dropdown{
-    color: #323C47;
-    font-weight:700px;
-    font-size:17px;
+#collasible-nav-dropdown {
+  color: #323c47;
+  font-weight: 700px;
+  font-size: 17px;
+}
+#border {
+  border: 1px solid #323c47;
+  box-sizing: border-box;
 }

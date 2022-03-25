@@ -1,11 +1,6 @@
 import "./Login.css";
-import { Container, Col, Row } from "react-bootstrap";
-import Frame from "../assests/Frame.png";
-import ref from "../assests/ref.png";
-import intel from "../assests/intel.png";
-import vic from "../assests/vic.png";
-import coma from "../assests/coma.png";
-import SignalCellularAltTwoToneIcon from "@material-ui/icons/SignalCellularAltTwoTone";
+import { Col, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Ref from "./Ref";
 import { useState } from "react";
 
@@ -24,7 +19,7 @@ const Loginref = () => {
           </Col>
           <Col sm={6}>
             <div id="dont">
-              Don’t have an account?<a href="#">Sign Up</a>
+              Don’t have an account?<Link to="/signup">Signup</Link>
             </div>
             <div id="log">Log In to RFP Intels</div>
             <div id="your">Enter your email and password below</div>
@@ -37,10 +32,11 @@ const Loginref = () => {
               <br />
               <label id="pass">
                 Password*
-                <a id="for" href="#">
+              
+                <Link id="for" to="/forget">
                   {" "}
                   Forgot Password?
-                </a>
+                  </Link>
               </label>
               <br />
               <br />
@@ -62,7 +58,7 @@ const Loginref = () => {
               </div>
               <br />
               <div>
-                <button id="signbtn">Sign In</button>
+               <Link to="/dash"> <button id="signbtn">Sign In</button></Link>
               </div>
             </div>
           </Col>

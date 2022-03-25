@@ -1,26 +1,29 @@
-import './App.css';
-import Loginref from './Components/Loginref';
-import Register from './Components/Register'
-import Ref from './Components/Ref';
-import Verify from './Components/Verification'
-import For from './Components/Forget';
+import "./App.css";
+import Loginref from "./Components/Loginref";
+import Register from "./Components/Register";
+import Verify from "./Components/Verification";
+import For from "./Components/Forget";
+import Dash from "./Components/Dashboard";
+import { Routes, Route } from "react-router-dom";
 
-import Dash from './Components/Dashboard';
-
-import Home from './Components/Tab';
+import Profile from "./Components/Navbar";
 function App() {
   return (
-    <div >
-     {/* <Loginref/> */}
-     {/* <Register/> */}
-     {/* <Ref/> */}
-     {/* <Verify/> */}
-     {/* <For/> */}
-     <Dash/>
-     {/* <Home/> */}
+    <div>
+      <Routes>
+        <Route path="/" element={<Loginref />}></Route>
+        <Route path="/signup" element={<Register />}></Route>
+        <Route path="/forget" element={<For />}></Route>
+        <Route path="/verify" element={<Verify />}></Route>
+        <Route path="/profile" element={<Profile/>}></Route>
+        <Route path="/dash" element={<Dash/>}></Route>
+      </Routes>
+
+     
+     
+      {/* <Pro/> */}
     </div>
   );
 }
 
 export default App;
-

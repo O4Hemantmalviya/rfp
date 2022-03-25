@@ -1,0 +1,142 @@
+#analytic {
+  display: flex;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  word-spacing: 25px;
+  color: #323c47;
+}
+#cell {
+  font-weight: 700;
+  color: #3751ff;
+  font-size: 25px;
+  margin-top: -15px;
+}
+#noti {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #334d6e;
+}
+#noti:hover {
+  background-color: #3751ff;
+  color: white;
+}
+#avtars {
+  color: #f2f2f2;
+  background-color: #3751ff;
+  margin-left: 50px;
+}
+#drop {
+  padding-left: 100px;
+  margin-top: -40px;
+}
+#probtn {
+  display: flex;
+  padding-top: 100px;
+  padding-left: 150px;
+}
+#profilebtn {
+  background-color: #d9deff;
+}
+#disney {
+  display: flex;
+  padding-left: 150px;
+}
+#walt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+
+  letter-spacing: 0.02em;
+
+  color: #334d6e;
+}
+#edit {
+  padding-left: 400px;
+  
+}
+#primary{
+    width:100px;
+    border-radius:10px;
+}
+#update {
+  padding-left: 140px;
+  word-spacing: 50px;
+}
+#i1 {
+  margin-left: 170px;
+  width: 500px;
+  background: #e8ebf7;
+  border-radius: 10px;
+  border: 1px solid #f5f6f8;
+}
+#i2 {
+  margin-left: 190px;
+  width: 500px;
+  background: #e8ebf7;
+  border-radius: 10px;
+  border: 1px solid #f5f6f8;
+}
+#i3 {
+  margin-left: 160px;
+  width: 500px;
+  background: #e8ebf7;
+  border-radius: 10px;
+  border: 1px solid #f5f6f8;
+}
+#i4 {
+  margin-left: 70px;
+  width: 500px;
+  background: #e8ebf7;
+  border-radius: 10px;
+  border: 1px solid #f5f6f8;
+}
+#i5 {
+  margin-left: 130px;
+  width: 500px;
+  background: #e8ebf7;
+  border-radius: 10px;
+  border: 1px solid #f5f6f8;
+}
+#i6 {
+  margin-left: 150px;
+  width: 500px;
+  background: #e8ebf7;
+  border-radius: 10px;
+  border: 1px solid #f5f6f8;
+}
+#i7 {
+  margin-left: 95px;
+  width: 500px;
+  background: #e8ebf7;
+  border-radius: 10px;
+  border: 1px solid #f5f6f8;
+}
+#i8 {
+  margin-left: 160px;
+  width: 500px;
+  background: #e8ebf7;
+
+  border-radius: 10px;
+  border: 1px solid #f5f6f8;
+}
+#label1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 60px;
+  text-align: justify;
+  letter-spacing: 0.02em;
+
+  color: #03071e;
+}

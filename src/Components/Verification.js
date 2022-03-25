@@ -2,6 +2,7 @@ import "./Verification.css";
 import { Col, Row } from "react-bootstrap";
 import Ref from "./Ref";
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
+import { Link } from "react-router-dom";
 const Verify = () => {
   return (
     <div>
@@ -12,7 +13,7 @@ const Verify = () => {
           </Col>
           <Col sm={6}>
             <div id="have">
-              Don’t have an account? <a href="#">Sign Up</a>
+              Don’t have an account? <Link to="/">Sign up</Link>
             </div>
             <div id="ba">
               <ArrowBackIosIcon /> Back
