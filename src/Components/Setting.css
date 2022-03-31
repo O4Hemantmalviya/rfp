@@ -1,0 +1,175 @@
+#Role {
+  display: flex;
+  padding-top: 30px;
+}
+#administrator {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  padding-left: 62px;
+  letter-spacing: 0.02em;
+
+  color: #334d6e;
+}
+#changepass {
+  border-radius: 5px;
+  color: white;
+  background-color: #3751ff;
+  border: 1px solid #3751ff;
+  font-weight: 600;
+}
+#changebtn {
+  margin-left: 500px;
+  
+}
+#edward {
+  background: #efefef;
+  border: 1px solid #334d6e;
+  height: 40px;
+  border-radius: 10px;
+  padding-left:20px;
+  margin-left:50px;
+}
+#personal {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  padding-left: 70px;
+ 
+  letter-spacing: 0.02em;
+
+  color: #334d6e;
+}
+#dolor {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  padding-left: 70px;
+
+  letter-spacing: 0.02em;
+
+  color: #878787;
+}
+#firstnames {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+padding-left:50px;
+  letter-spacing: 0.02em;
+
+  color: #334d6e;
+}
+#passwords {
+  margin-left: 50px;
+}
+#from5 {
+  display: flex;
+}
+#emailaddres {
+  padding-left: 70px;
+}
+#emailadd {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+
+  color: #334d6e;
+}
+#willie{
+  width: 430px;
+  background: #efefef;
+  border: 1px solid #334d6e;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+#notification {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  padding-left: 70px;
+
+  letter-spacing: 0.02em;
+
+  color: #334d6e;
+}
+#choose {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 33px;
+  padding-left: 70px;
+
+  letter-spacing: 0.02em;
+
+  color: #334d6e;
+}
+#alerts {
+  display: flex;
+  padding-left: 70px;
+  padding-bottom: 30px;
+}
+#opportunityalert {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  padding-left: 5px;
+  letter-spacing: 0.02em;
+
+  color: #334d6e;
+}
+#assignment {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+  padding-left: 60px;
+  color: #334d6e;
+}
+#discardchanges {
+  font-family: "poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 10px;
+  letter-spacing: 0.02em;
+  padding-left: 190px;
+  color: #334d6e;
+  margin-top: 6px;
+}
+#savechange {
+  margin-left: 30px;
+}
+#mainborder {
+  border: 1px solid #c4c4c4;
+  width: 75%;
+  margin-left:140px;
+}
+#hrline {
+  padding-left: 30px;
+  padding-right: 30px;
+}
